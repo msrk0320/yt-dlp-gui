@@ -1,0 +1,11 @@
+{
+  "output_path": "",
+  "format": "bestvideo+bestaudio/best",
+  "embed_thumbnail": false,
+  "embed_subtitles": false,
+  "download_subtitles": false,
+  "subtitle_langs": ["en"],
+  "restrict_filenames": false,
+  "max_downloads": 3,
+  "theme": "dark"
+}
