@@ -23,9 +23,9 @@ A minimalistic, modern desktop GUI for [yt-dlp](https://github.com/yt-dlp/yt-dlp
 
 ## Installation
 
-### Option 1: Portable Setup (Recommended - No Python Install Required)
+### Option 1: Portable Setup (Recommended - Zero Dependencies)
 
-This method downloads a portable Python environment and all dependencies automatically.
+This method downloads a portable Python environment and all dependencies automatically. **No Python installation required.**
 
 1. Clone the repository:
    ```bash
@@ -33,11 +33,11 @@ This method downloads a portable Python environment and all dependencies automat
    cd yt-dlp-gui
    ```
 
-2. Run the setup script:
-   ```bash
-   python setup_portable.py
+2. Run the setup script (Right-click `setup.ps1` and select "Run with PowerShell", or run in terminal):
+   ```powershell
+   .\setup.ps1
    ```
-   *Note: This requires a system Python to run the setup script once. After setup, you won't need system Python anymore.*
+   *Note: If you get an execution policy error, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` first.*
 
 3. Run the application:
    ```
