@@ -14,6 +14,12 @@ venv/
 env/
 .venv/
 
+# Portable Environment
+portable_env/
+Run.bat
+get-pip.py
+python_embed.zip
+
 # IDE
 .vscode/
 .idea/

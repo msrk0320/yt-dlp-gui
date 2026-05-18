@@ -23,9 +23,32 @@ A minimalistic, modern desktop GUI for [yt-dlp](https://github.com/yt-dlp/yt-dlp
 
 ## Installation
 
+### Option 1: Portable Setup (Recommended - No Python Install Required)
+
+This method downloads a portable Python environment and all dependencies automatically.
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/yt-dlp-gui.git
+   git clone https://github.com/msrk0320/yt-dlp-gui.git
+   cd yt-dlp-gui
+   ```
+
+2. Run the setup script:
+   ```bash
+   python setup_portable.py
+   ```
+   *Note: This requires a system Python to run the setup script once. After setup, you won't need system Python anymore.*
+
+3. Run the application:
+   ```
+   Run.bat
+   ```
+
+### Option 2: Manual Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/msrk0320/yt-dlp-gui.git
    cd yt-dlp-gui
    ```
 
@@ -36,19 +59,14 @@ A minimalistic, modern desktop GUI for [yt-dlp](https://github.com/yt-dlp/yt-dlp
 
 3. Ensure `yt-dlp.exe`, `ffmpeg.exe`, and `deno.exe` are in your `PATH` or in `C:\yt-dlp`.
 
-## Usage
-
-### Quick Start
-
-Run the application:
-```bash
-python main.py
-```
-
-Or on Windows, use the provided batch file:
-```
-yt-dlp-gui.bat
-```
+4. Run the application:
+   ```bash
+   python main.py
+   ```
+   Or on Windows:
+   ```
+   yt-dlp-gui.bat
+   ```
 
 ### Building Portable Distribution
 
