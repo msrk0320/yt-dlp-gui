@@ -156,6 +156,9 @@ for i in range(10): add(tick() * 2, 42.35 + i * .045, .1, .5)
 add(chime(72), 42.4, 0, .6)
 for i in range(30): add(tick() * 1.6, 43.0 + i * .023, -.1, .4)
 
+for t in (19.03, 26.13, 37.28): add(whoosh(.45), t, 0, .9)
+add(whoosh(.35), 21.95, .2, .6)
+
 # master: soft clip + fades
 m = np.stack([L, R], 1)
 fade = np.ones(N); fade[: int(.3 * SR)] = np.linspace(0, 1, int(.3 * SR)); fade[-int(1.2 * SR):] = np.linspace(1, 0, int(1.2 * SR))
